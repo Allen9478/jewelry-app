@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/jewelry-app/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jewelry App</title>
+    <script>
+        // SPA redirect：把路徑存進 sessionStorage，讓 index.html 讀取並還原
+        const path = window.location.pathname.replace('/jewelry-app', '')
+        if (path && path !== '/') {
+            sessionStorage.setItem('redirect', path)
+        }
+        window.location.replace('/jewelry-app/')
+    </script>
+</head>
+
+</html>
