@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// 全域字型設定
+body {
+  font-family: $font-body;
+  background-color: $color-cream;
+  color: $color-dark;
+}
