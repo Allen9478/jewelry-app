@@ -13,7 +13,7 @@
     "lint:eslint": "eslint . --fix --cache",
     "format": "prettier --write --experimental-cli src/",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --dotfiles"
+    "deploy": "node deploy.mjs"
   },
   "dependencies": {
     "firebase": "^12.12.0",

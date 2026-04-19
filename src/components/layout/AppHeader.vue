@@ -43,7 +43,7 @@ function handleLogout() {
           <!-- 登入狀態：未登入顯示「登入」，已登入顯示頭像或名字 -->
           <template v-if="!authStore.isLoggedIn">
             <RouterLink
-              to="/auth/login"
+              to="/auth"
               class="text-sm tracking-wider px-4 py-2 border border-gold text-gold hover:bg-gold hover:text-cream transition-colors"
             >
               登入

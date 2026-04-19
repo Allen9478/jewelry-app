@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -9,14 +9,25 @@ const router = createRouter({
       component: () => import('@/views/HomeView.vue'),
     },
     {
-      path: '/gallery',
-      name: 'gallery',
-      component: () => import('@/views/GalleryView.vue'),
+      path: '/artists',
+      name: 'artists',
+      component: () => import('@/views/ArtistsView.vue'),
     },
     {
-      path: '/auth/login',
-      name: 'login',
-      component: () => import('@/views/LoginView.vue'),
+      path: '/artists/:slug',
+      name: 'artist-detail',
+      component: () => import('@/views/ArtistDetailView.vue'),
+      props: true,
+    },
+    {
+      path: '/auth',
+      name: 'auth',
+      component: () => import('@/views/AuthView.vue'),
+    },
+    {
+      path: '/favorites',
+      name: 'favorites',
+      component: () => import('@/views/FavoritesView.vue'),
     },
   ],
 })
