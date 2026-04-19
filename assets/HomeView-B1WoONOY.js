@@ -1,0 +1,1 @@
+import{g as e,i as t,s as n}from"./runtime-core.esm-bundler-p5UGNPUm.js";import{t as r}from"./_plugin-vue_export-helper-S3RvzygF.js";var i={},a={class:`min-h-screen`};function o(r,i){return e(),n(`main`,a,[...i[0]||=[t(`p`,{class:`text-center py-20 text-gold font-heading text-3xl`},`首頁 - 建置中`,-1)]])}var s=r(i,[[`render`,o]]);export{s as default};

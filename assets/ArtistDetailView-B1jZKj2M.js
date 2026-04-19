@@ -1,0 +1,1 @@
+import{g as e,s as t}from"./runtime-core.esm-bundler-p5UGNPUm.js";var n={__name:`ArtistDetailView`,props:{slug:String},setup(n){return(n,r)=>(e(),t(`div`,null,`ArtistDetailPage`))}};export{n as default};

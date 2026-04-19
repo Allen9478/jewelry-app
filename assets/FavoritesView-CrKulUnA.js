@@ -1,0 +1,1 @@
+import{g as e,s as t}from"./runtime-core.esm-bundler-p5UGNPUm.js";import{t as n}from"./_plugin-vue_export-helper-S3RvzygF.js";var r={};function i(n,r){return e(),t(`div`,null,`Favorites page`)}var a=n(r,[[`render`,i]]);export{a as default};
